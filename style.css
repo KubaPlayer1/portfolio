@@ -1,0 +1,73 @@
+body {
+  background-color: lightgray;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.header p {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 130px;
+  height: 50px;
+  background-color: darkgray;
+  color: aqua;
+  border: 2px solid;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-left: 40px;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: black;
+  color: rgb(247, 0, 255);
+}
+
+.additional-section {
+  max-height: calc(
+    100vh - 200px
+  );
+  overflow-y: auto;
+  padding: 20px;
+  background-color: lightgray;
+  margin-top: 20px;
+}
+
+.scrollable-div {
+  max-height: inherit;
+  overflow-y: auto;
+}

@@ -863,8 +863,13 @@ section {
 }
 
 .contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .phone:hover i,
+.contact .info .website:hover i,
+.contact .info .youtube:hover i,
+.contact .info .instagram:hover i,
+.contact .info .facebook:hover i,
+.contact .info .fbwebsite:hover i,
+.contact .info .github:hover i {
   background: #149ddd;
   color: #fff;
 }
